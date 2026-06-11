@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 - 2026-06-11
+
+Zenodo-triggered archival release.
+
+No benchmark data, DFT/MEP files, figures, scripts, or analysis outputs were changed relative to v1.0.0. This release updates repository version metadata after Zenodo repository activation so that archival deposition and DOI assignment can be triggered.
+
 ## 1.0.0 - 2026-06-11
 
 Initial journal-neutral reproducibility release.
