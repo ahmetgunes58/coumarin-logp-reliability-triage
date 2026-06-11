@@ -1,0 +1,31 @@
+﻿Dataset_S42b DataWarrior cLogP processing report
+======================================================================
+
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Base input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_external_predictor_input.csv
+DataWarrior export file: D:\Makaleler\coumarin-logp-working-source\data\processed\DataWarrior_cLogP_export.csv
+Detected cLogP column: cLogP
+Output values: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42b_DataWarrior_cLogP_values.csv
+Output report: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42b_DataWarrior_cLogP_report.txt
+
+1. Processing status
+----------------------------------------------------------------------
+Base compounds: 95
+DataWarrior export rows: 95
+Valid DataWarrior cLogP values: 95
+Missing DataWarrior cLogP values: 0
+
+2. DataWarrior cLogP performance summary
+----------------------------------------------------------------------
+Bias: -0.731
+MAE: 1.202
+RMSE: 1.545
+R2: -0.848
+Overestimated compounds: 65.3%
+Severe absolute error compounds: 20.0%
+Polar logP <= 1.0 bias: -1.600
+N = 1-3 and logP < 1.5 bias: -1.422
+
+3. Interpretation note
+----------------------------------------------------------------------
+DataWarrior cLogP is included as an external platform-independent comparator. It is not used to train, recalibrate, or replace any SwissADME-associated predictor. Its role is to test whether the observed prediction-error architecture is restricted to the SwissADME suite or also appears in an independent cLogP implementation.

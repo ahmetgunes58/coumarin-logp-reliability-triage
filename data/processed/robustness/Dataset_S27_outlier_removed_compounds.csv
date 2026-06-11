@@ -1,0 +1,11 @@
+﻿Compound_ID,logP_exp,Consensus,N_count,FM,delta_Consensus,abs_delta_Consensus,abs_error_rank,Removal_scenario
+CMR_GOLD_058,0.9664,6.16,2,FM1,-5.1936,5.1936,1,Excluding CMR_GOLD_058
+CMR_GOLD_058,0.9664,6.16,2,FM1,-5.1936,5.1936,1,Excluding top-1 absolute consensus-error compound(s)
+CMR_GOLD_058,0.9664,6.16,2,FM1,-5.1936,5.1936,1,Excluding top-3 absolute consensus-error compound(s)
+CMR_GOLD_035,0.61,4.42,4,FM3,-3.81,3.81,2,Excluding top-3 absolute consensus-error compound(s)
+CMR_GOLD_036,0.58,4.25,4,FM3,-3.67,3.67,3,Excluding top-3 absolute consensus-error compound(s)
+CMR_GOLD_058,0.9664,6.16,2,FM1,-5.1936,5.1936,1,Excluding top-5 absolute consensus-error compound(s)
+CMR_GOLD_035,0.61,4.42,4,FM3,-3.81,3.81,2,Excluding top-5 absolute consensus-error compound(s)
+CMR_GOLD_036,0.58,4.25,4,FM3,-3.67,3.67,3,Excluding top-5 absolute consensus-error compound(s)
+CMR_GOLD_057,1.365,4.88,2,FM1,-3.5149999999999997,3.5149999999999997,4,Excluding top-5 absolute consensus-error compound(s)
+CMR_GOLD_031,0.49,3.17,2,FM1,-2.6799999999999997,2.6799999999999997,5,Excluding top-5 absolute consensus-error compound(s)

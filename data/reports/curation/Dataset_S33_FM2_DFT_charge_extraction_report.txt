@@ -1,0 +1,24 @@
+﻿FM2 DFT charge extraction report
+======================================================================
+
+CMR_GOLD_090
+  atoms total: 45
+  heavy atoms: 26
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_090\extracted_data\CMR_GOLD_090_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_090\extracted_data\CMR_GOLD_090_heavy_atom_charges.csv
+
+CMR_GOLD_020
+  atoms total: 48
+  heavy atoms: 33
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_020\extracted_data\CMR_GOLD_020_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_020\extracted_data\CMR_GOLD_020_heavy_atom_charges.csv
+
+CMR_GOLD_092
+  atoms total: 52
+  heavy atoms: 31
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_092\extracted_data\CMR_GOLD_092_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_092\extracted_data\CMR_GOLD_092_heavy_atom_charges.csv
+
+Combined outputs:
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S33_FM2_DFT_Mulliken_Loewdin_charges.csv
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S33_FM2_DFT_heavy_atom_charges.csv

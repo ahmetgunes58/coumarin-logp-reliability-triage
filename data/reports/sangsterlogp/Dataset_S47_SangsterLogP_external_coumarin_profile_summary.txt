@@ -1,0 +1,62 @@
+﻿SangsterLogP external strict coumarin profile
+========================================================================
+Input file: D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_strict_coumarin_nonoverlap_candidates.csv
+Exact non-overlap input rows: 128
+Strong non-overlap rows before external deduplication: 126
+Strong non-overlap rows after exact InChIKey deduplication: 126
+Valid molecules: 126
+Dot-disconnected / possible salt-mixture entries: 0
+
+N-count group distribution
+------------------------------------------------------------------------
+N_group
+N = 0      98
+N = 1       9
+N = 2–3     9
+N ≥ 4      10
+
+Experimental logP-bin distribution
+------------------------------------------------------------------------
+logP_bin
+logP < 1.5          22
+1.5 ≤ logP ≤ 3.0    61
+logP > 3.0          43
+
+N-count × logP-bin matrix
+------------------------------------------------------------------------
+logP_bin  logP < 1.5  1.5 ≤ logP ≤ 3.0  logP > 3.0
+N_group                                           
+N = 0             11                50          37
+N = 1              1                 6           2
+N = 2–3            4                 2           3
+N ≥ 4              6                 3           1
+
+logP descriptive statistics
+------------------------------------------------------------------------
+count    126.000000
+mean       2.480000
+std        1.236908
+min       -2.700000
+25%        1.962500
+50%        2.805000
+75%        3.250000
+max        5.070000
+Name: logP_exp, dtype: float64
+
+N_count descriptive statistics
+------------------------------------------------------------------------
+count    126.000000
+mean       0.547619
+std        1.204041
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        5.000000
+Name: N_count, dtype: float64
+
+Output files
+------------------------------------------------------------------------
+Profile CSV:       D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_external_coumarin_profile.csv
+SwissADME CSV:     D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_external_coumarin_for_SwissADME.csv
+SwissADME SMI:     D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_external_coumarin_for_SwissADME.smi

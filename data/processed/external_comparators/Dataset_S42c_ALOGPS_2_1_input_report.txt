@@ -1,0 +1,20 @@
+﻿Dataset_S42c ALOGPS 2.1 input preparation report
+======================================================================
+
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_external_predictor_input.csv
+
+Output files:
+- D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42c_ALOGPS_ordered_input_map.csv
+- D:\Makaleler\coumarin-logp-working-source\data\ALOGPS_2_1_input_smiles_only.txt
+- D:\Makaleler\coumarin-logp-working-source\data\ALOGPS_2_1_input_smiles_with_id.txt
+- D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42c_ALOGPS_2_1_template.csv
+- D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42c_ALOGPS_2_1_input_report.txt
+
+Number of compounds prepared for ALOGPS: 95
+
+Use instruction:
+1. Use ALOGPS_2_1_input_smiles_only.txt for ALOGPS batch prediction.
+2. Copy the ALOGPS 2.1 logP values into Dataset_S42c_ALOGPS_2_1_template.csv.
+3. Save the filled file as Dataset_S42c_ALOGPS_2_1_template_filled.csv.
+4. The next script will validate and process the filled ALOGPS values.

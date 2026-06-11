@@ -1,0 +1,36 @@
+﻿Dataset_S42a RDKit MolLogP calculation report
+======================================================================
+
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_external_predictor_input.csv
+Output values: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42a_RDKit_MolLogP_values.csv
+Output report: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42a_RDKit_MolLogP_report.txt
+
+1. Software information
+----------------------------------------------------------------------
+Python version: 3.13.9
+RDKit version: 2025.09.6
+
+2. Calculation status
+----------------------------------------------------------------------
+Total compounds: 95
+Valid RDKit MolLogP values: 95
+Failed compounds: 0
+
+RDKit_status distribution:
+  OK: 95
+
+3. RDKit MolLogP performance summary
+----------------------------------------------------------------------
+Bias: -1.401
+MAE: 1.606
+RMSE: 2.072
+R2: -2.323
+Overestimated compounds: 82.1%
+Severe absolute error compounds: 41.1%
+Polar logP <= 1.0 bias: -2.500
+N = 1-3 and logP < 1.5 bias: -2.210
+
+4. Interpretation note
+----------------------------------------------------------------------
+RDKit MolLogP is included as a reproducible external comparator. It is not used to train, recalibrate, or replace any SwissADME-associated predictor. Its role is to test whether the observed prediction-error architecture is restricted to the SwissADME suite or also appears in a platform-independent atom-based logP implementation.

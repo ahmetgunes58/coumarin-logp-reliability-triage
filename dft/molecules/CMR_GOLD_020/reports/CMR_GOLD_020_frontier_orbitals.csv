@@ -1,0 +1,2 @@
+﻿output_file,terminated_normally,final_energy_Eh,HOMO_orbital,HOMO_eV,LUMO_orbital,LUMO_eV,Gap_eV
+dft\molecules\CMR_GOLD_020\output\CMR_GOLD_020_sp.out,True,-1786.095197901316,115,-5.8578,116,-2.2943,3.5635000000000003

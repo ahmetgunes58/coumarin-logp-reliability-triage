@@ -1,0 +1,30 @@
+{
+  "title": "Scaffold-Local Fragment-Additivity Breakdown in Coumarin logP Prediction: DFT-Supported Reliability Triage for Medicinal Chemistry Decision-Making",
+  "upload_type": "dataset",
+  "description": "Journal-neutral reproducibility repository containing curated coumarin logP benchmark data, external comparator outputs, SangsterLogP audit files, DFT/MEP panel files, figures, scripts, and checksums for a reliability-triage analysis of fragment-additivity breakdown in coumarin logP prediction.",
+  "creators": [
+    {
+      "name": "GÜNEŞ, Ahmet",
+      "orcid": "0000-0003-0966-4025",
+      "affiliation": "National Defence University, Turkish Naval Academy, Department of Basic Sciences, Istanbul, Türkiye"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "coumarin",
+    "logP",
+    "lipophilicity",
+    "reliability triage",
+    "DFT",
+    "MEP",
+    "SwissADME",
+    "RDKit",
+    "DataWarrior",
+    "ALOGPS",
+    "OPERA",
+    "SangsterLogP",
+    "reproducibility"
+  ],
+  "access_right": "open",
+  "version": "1.0.0"
+}

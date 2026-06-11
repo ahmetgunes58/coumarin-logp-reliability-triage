@@ -1,0 +1,24 @@
+﻿Field,Value
+Molecule_ID,CMR_GOLD_020
+Density_cube,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_020\cube\CMR_GOLD_020_density.cube
+ESP_cube,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_020\cube\CMR_GOLD_020_esp.cube
+Same_grid,True
+Same_origin,True
+Same_axes,True
+Same_natoms,True
+Grid,"(40, 40, 40)"
+Natoms,48
+Density_min,0.0
+Density_max,106.495
+Density_mean,0.007585640944740219
+ESP_min,-0.0935868
+ESP_max,98.5746
+ESP_mean,0.023641789037353273
+Isosurface_density_au,0.004
+Near_isosurface_shell_points,228
+ESP_min_near_rho_0p004,-0.0798776
+ESP_max_near_rho_0p004,0.0705367
+ESP_mean_near_rho_0p004,0.008567344478070175
+Common_MEP_scale_min_au,-0.08
+Common_MEP_scale_max_au,0.08
+ESP_values_outside_common_scale_total,2092

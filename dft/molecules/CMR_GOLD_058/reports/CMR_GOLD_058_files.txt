@@ -1,0 +1,12 @@
+﻿D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\audit_source
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\extracted_data
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\geometry
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\output
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\audit_source\CMR_GOLD_058_selected_source_paths.txt
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\extracted_data\CMR_GOLD_058_charges_mulliken_loewdin.csv
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\extracted_data\CMR_GOLD_058_heavy_atom_charges.csv
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\geometry\CMR_GOLD_058_opt.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\output\CMR_GOLD_058_optfreq.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\output\CMR_GOLD_058_optfreq_existing.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\output\CMR_GOLD_058_sp.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\output\CMR_GOLD_058_sp_existing.out

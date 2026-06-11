@@ -1,0 +1,26 @@
+Field,Value
+Molecule_ID,CMR_GOLD_016
+SMILES_valid,True
+Input_SMILES,O=C1C(C(C(OCC)=O)C2=C(O)C3=CC=CC=C3OC2=O)=C(O)C4=CC=CC=C4O1
+Canonical_SMILES,CCOC(=O)C(c1c(O)c2ccccc2oc1=O)c1c(O)c2ccccc2oc1=O
+Formula,C22H16O8
+Exact_MW,408.084517
+Formal_charge,0
+Heavy_atoms_no_H,30
+Total_atoms_with_H,46
+N_count,0
+O_count,8
+Conformers_requested,250
+Conformers_generated,145
+Best_conformer_ID,92
+MMFF_not_converged_flag,0
+MMFF_energy_kcal_mol_like,29.757814
+Min_nonbonded_distance_A,1.6345
+Min_nonbonded_pair_atom_indices_0based,"(20, 41)"
+Coordinates_finite,True
+XYZ_RDKIT_written,True
+XYZ_ORCA_written,True
+SDF_written,True
+Expected_formula_match,True
+Expected_N_count_match,True
+Expected_total_atom_count_match,True

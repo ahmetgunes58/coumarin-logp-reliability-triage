@@ -1,0 +1,36 @@
+﻿Documentation-tier sensitivity analysis and FM bootstrap robustness report
+==============================================================================
+
+Input dataset: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S1_benchmark_dataset.csv
+Rows: 95
+Bootstrap iterations: 10000
+
+Tier counts:
+_tier_norm
+STRICT-GOLD    52
+GOLD           24
+EXTENDED       19
+
+Sensitivity analysis:
+                                    Dataset  n  Consensus_mean_bias  Consensus_median_bias  Consensus_MAE  Consensus_RMSE  Overestimated_n  Overestimated_percent  N0_n  N0_mean_bias  Npos_n  Npos_mean_bias  Npos_minus_N0_bias_shift  Polar_logP_le_1_n  Polar_logP_le_1_mean_bias  Polar_logP_le_1_RMSE  Highrisk_N1_3_logP_lt_1p5_n  Highrisk_N1_3_logP_lt_1p5_mean_bias  Highrisk_N1_3_logP_lt_1p5_MAE
+Full dataset: STRICT-GOLD + GOLD + EXTENDED 95            -0.879185                  -0.88       1.163606        1.510961               74              77.894737    11      0.198636      84       -1.020329                 -1.218965                 16                  -2.083912              2.452555                           13                            -2.027123                       2.027123
+        High-confidence: STRICT-GOLD + GOLD 76            -0.762297                  -0.45       1.117824        1.530039               55              72.368421    11      0.198636      65       -0.924917                 -1.123553                 14                  -2.197400              2.576074                           10                            -2.212860                       2.212860
+                           STRICT-GOLD only 52            -0.673338                  -0.43       1.128723        1.600528               38              73.076923    11      0.198636      41       -0.907283                 -1.105919                 13                  -2.258738              2.644969                            9                            -2.303178                       2.303178
+
+FM bootstrap CI analysis:
+           Dataset Mode  n  Mean_bias  Mean_bias_CI95_low  Mean_bias_CI95_high  Median_bias  Median_bias_CI95_low  Median_bias_CI95_high      MAE  MAE_CI95_low  MAE_CI95_high     RMSE
+      Full dataset  FM0  6  -0.260833           -0.754167             0.300000       -0.330               -0.8425                   0.39 0.574167      0.291667       0.908333 0.692186
+      Full dataset  FM1 13  -2.027123           -2.739170            -1.431054       -1.680               -2.6300                  -1.40 2.027123      1.438919       2.726832 2.358373
+      Full dataset  FM2 44  -0.871750           -1.134730            -0.606317       -0.774               -1.3100                  -0.41 1.009023      0.796861       1.230307 1.251532
+      Full dataset  FM3 27  -0.777704           -1.298264            -0.288571       -0.894               -1.4600                   0.05 1.161407      0.804914       1.553030 1.533787
+      Full dataset  FM4  5   0.750000           -0.216000             1.740000        0.160               -0.5700                   2.27 0.998000      0.198000       1.798000 1.361580
+STRICT-GOLD + GOLD  FM0  6  -0.260833           -0.754167             0.300000       -0.330               -0.8425                   0.39 0.574167      0.291667       0.908333 0.692186
+STRICT-GOLD + GOLD  FM1 10  -2.212860           -3.058605            -1.439463       -1.895               -3.0725                  -1.28 2.212860      1.451987       3.069003 2.575626
+STRICT-GOLD + GOLD  FM2 38  -0.781342           -1.066237            -0.492420       -0.605               -1.2730                  -0.34 0.940289      0.720579       1.178146 1.187345
+STRICT-GOLD + GOLD  FM3 17  -0.488235           -1.264735             0.194706        0.050               -1.2600                   0.43 1.097647      0.571765       1.713544 1.642502
+STRICT-GOLD + GOLD  FM4  5   0.750000           -0.216000             1.740000        0.160               -0.5700                   2.27 0.998000      0.198000       1.798000 1.361580
+
+Interpretation guide:
+- Negative bias = overestimation of lipophilicity by consensus logP.
+- Positive bias = underestimation of lipophilicity by consensus logP.
+- Bootstrap CIs are descriptive robustness intervals, not independent validation of a predictive classifier.

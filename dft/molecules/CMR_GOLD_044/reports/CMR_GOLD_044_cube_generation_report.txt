@@ -1,0 +1,23 @@
+﻿CMR_GOLD_044 ORCA plot cube-generation report
+========================================================================
+ORCA plot: C:\orca\orca_plot.exe
+Input dir: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input
+GBW: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.gbw
+SP output: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_sp.out
+
+XYZ source copied: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq.xyz
+XYZ destination: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\geometry\CMR_GOLD_044_sp.xyz
+
+Density return code: 0
+Density source cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.eldens.cube
+Density final cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\cubes\CMR_GOLD_044_density.cube
+Density log: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_orcaplot_density_retry.log
+
+ESP source cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.scfp.esp.cube
+ESP final cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\cubes\CMR_GOLD_044_esp.cube
+ESP attempts:
+  full_density_name: return code 0; log D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_orcaplot_esp_retry_full_density_name.log
+
+Existing cube files in input directory:
+  D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.eldens.cube
+  D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.scfp.esp.cube

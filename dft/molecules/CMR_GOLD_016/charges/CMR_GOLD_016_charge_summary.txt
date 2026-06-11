@@ -1,0 +1,30 @@
+CMR_GOLD_016 Mulliken / Loewdin charge summary
+========================================================================
+
+Nitrogen atoms:
+
+Oxygen atoms:
+Atom  1  O | Mulliken  -0.317274 | Loewdin  -0.232171
+Atom  6  O | Mulliken  -0.295044 | Loewdin  -0.080793
+Atom  9  O | Mulliken  -0.258985 | Loewdin  -0.213744
+Atom 12  O | Mulliken  -0.188612 | Loewdin  -0.022249
+Atom 19  O | Mulliken  -0.218444 | Loewdin  -0.019014
+Atom 21  O | Mulliken  -0.321690 | Loewdin  -0.222688
+Atom 23  O | Mulliken  -0.188076 | Loewdin  -0.018131
+Atom 30  O | Mulliken  -0.220135 | Loewdin  -0.021232
+
+Most negative heavy atoms by Mulliken charge:
+Atom 21  O | Mulliken  -0.321690 | Loewdin  -0.222688
+Atom  1  O | Mulliken  -0.317274 | Loewdin  -0.232171
+Atom  6  O | Mulliken  -0.295044 | Loewdin  -0.080793
+Atom  9  O | Mulliken  -0.258985 | Loewdin  -0.213744
+Atom 30  O | Mulliken  -0.220135 | Loewdin  -0.021232
+Atom 19  O | Mulliken  -0.218444 | Loewdin  -0.019014
+
+Most positive heavy atoms by Mulliken charge:
+Atom 20  C | Mulliken   0.265188 | Loewdin   0.111220
+Atom  2  C | Mulliken   0.264290 | Loewdin   0.109531
+Atom 22  C | Mulliken   0.215719 | Loewdin   0.106723
+Atom 11  C | Mulliken   0.202107 | Loewdin   0.108086
+Atom  7  C | Mulliken   0.178179 | Loewdin   0.099626
+Atom 29  C | Mulliken   0.176300 | Loewdin   0.072692

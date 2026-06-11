@@ -1,0 +1,35 @@
+Field,Value
+Molecule_ID,CMR_GOLD_029
+Expected_protocol,ORCA 6.1.1 | B3LYP-D3BJ/def2-SVP | CPCM(Water) | TightSCF | RIJCOSX/def2/J | neutral singlet
+Opt_input_exists,True
+SP_input_exists,True
+Opt_output_exists,True
+SP_output_exists,True
+Opt_route_line,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq
+SP_route_line,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water)
+Opt_charge,0
+Opt_multiplicity,1
+SP_charge,0
+SP_multiplicity,1
+Opt_normal_termination,True
+Opt_converged,True
+Frequency_count,132
+Imaginary_frequencies_less_than_minus_20_cm-1,[]
+SP_normal_termination,True
+Opt_keyword_B3LYP,True
+Opt_keyword_D3BJ,True
+Opt_keyword_def2-SVP,True
+Opt_keyword_TightSCF,True
+Opt_keyword_RIJCOSX,True
+Opt_keyword_def2/J,True
+Opt_keyword_CPCM(Water),True
+Opt_keyword_Opt,True
+Opt_keyword_Freq,True
+SP_keyword_B3LYP,True
+SP_keyword_D3BJ,True
+SP_keyword_def2-SVP,True
+SP_keyword_TightSCF,True
+SP_keyword_RIJCOSX,True
+SP_keyword_def2/J,True
+SP_keyword_CPCM(Water),True
+Overall_method_audit,PASS

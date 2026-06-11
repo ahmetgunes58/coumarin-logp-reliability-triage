@@ -1,0 +1,30 @@
+﻿Imported DFT anchor charge extraction report
+======================================================================
+
+CMR_GOLD_043
+  atoms total: 22
+  heavy atoms: 16
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\extracted_data\CMR_GOLD_043_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\extracted_data\CMR_GOLD_043_heavy_atom_charges.csv
+
+CMR_GOLD_055
+  atoms total: 17
+  heavy atoms: 11
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_055\extracted_data\CMR_GOLD_055_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_055\extracted_data\CMR_GOLD_055_heavy_atom_charges.csv
+
+CMR_GOLD_058
+  atoms total: 68
+  heavy atoms: 36
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\extracted_data\CMR_GOLD_058_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_058\extracted_data\CMR_GOLD_058_heavy_atom_charges.csv
+
+CMR_GOLD_079
+  atoms total: 41
+  heavy atoms: 27
+  all-charge CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_079\extracted_data\CMR_GOLD_079_charges_mulliken_loewdin.csv
+  heavy-atom CSV: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_079\extracted_data\CMR_GOLD_079_heavy_atom_charges.csv
+
+Combined outputs:
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S36_imported_DFT_anchor_Mulliken_Loewdin_charges.csv
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S36_imported_DFT_anchor_heavy_atom_charges.csv

@@ -1,0 +1,83 @@
+﻿CMR_GOLD_044 and CMR_GOLD_016 short method audit
+====================================================================================================
+
+
+CMR_GOLD_044
+----------------------------------------------------------------------------------------------------
+PASS  | exists::CMR_GOLD_044_optfreq.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq.inp
+PASS  | exists::CMR_GOLD_044_sp.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.inp
+PASS  | exists::CMR_GOLD_044_optfreq.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_optfreq.out
+PASS  | exists::CMR_GOLD_044_sp.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_sp.out
+PASS  | exists::CMR_GOLD_044_start.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_start.xyz
+PASS  | exists::CMR_GOLD_044_opt.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\geometry\CMR_GOLD_044_opt.xyz
+PASS  | exists::CMR_GOLD_044_charges_mulliken_loewdin.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_charges_mulliken_loewdin.csv
+PASS  | exists::CMR_GOLD_044_sp_summary.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_sp_summary.csv
+PASS  | Opt route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq
+PASS  | SP route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water)
+PASS  | Opt charge/multiplicity: * xyzfile 0 1 input/CMR_GOLD_044_start.xyz
+PASS  | SP charge/multiplicity: * xyzfile 0 1 geometry/CMR_GOLD_044_opt.xyz
+PASS  | Opt normal termination: True
+PASS  | Opt convergence: True
+PASS  | Opt frequency count: 75 | expected=75
+PASS  | Opt min frequency: 0.0
+PASS  | Opt imaginary frequencies < -20 cm-1: []
+PASS  | Opt final energy count: 13
+PASS  | SP normal termination: True
+PASS  | SP orbital row count: 70
+PASS  | SP HOMO eV: -6.6834
+PASS  | SP LUMO eV: -2.5383
+PASS  | SP gap eV: 4.145099999999999
+PASS  | SP dipole D: 6.350236912
+PASS  | SP final energy count: 1
+PASS  | Start XYZ atom count: (25, 25)
+PASS  | Opt XYZ atom count: (25, 25)
+PASS  | Charge rows: 25
+PASS  | Mulliken charge sum: 1.9999999999881224e-06
+PASS  | Loewdin charge sum: 9.999999999663056e-07
+PASS  | N atom count in charges: 2
+PASS  | O atom count in charges: 3
+PASS  | Table9 HOMO_eV agrees: 0.0 | Table9=-6.6834, output=-6.6834, tol=0.0001
+PASS  | Table9 LUMO_eV agrees: 0.0 | Table9=-2.5383, output=-2.5383, tol=0.0001
+PASS  | Table9 Gap_eV agrees: 8.881784197001252e-16 | Table9=4.1451, output=4.145099999999999, tol=0.0001
+PASS  | Table9 Dipole_D agrees: 3.691199999966699e-05 | Table9=6.3502, output=6.350236912, tol=0.001
+PASS  | OVERALL_SHORT_AUDIT: PASS
+
+CMR_GOLD_016
+----------------------------------------------------------------------------------------------------
+PASS  | exists::CMR_GOLD_016_optfreq.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_optfreq.inp
+PASS  | exists::CMR_GOLD_016_sp.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_sp.inp
+PASS  | exists::CMR_GOLD_016_optfreq.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\output\CMR_GOLD_016_optfreq.out
+PASS  | exists::CMR_GOLD_016_sp.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\output\CMR_GOLD_016_sp.out
+PASS  | exists::CMR_GOLD_016_start.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_start.xyz
+PASS  | exists::CMR_GOLD_016_opt.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\geometry\CMR_GOLD_016_opt.xyz
+PASS  | exists::CMR_GOLD_016_charges_mulliken_loewdin.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\extracted_data\CMR_GOLD_016_charges_mulliken_loewdin.csv
+PASS  | exists::CMR_GOLD_016_sp_summary.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\extracted_data\CMR_GOLD_016_sp_summary.csv
+PASS  | Opt route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq
+PASS  | SP route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water)
+PASS  | Opt charge/multiplicity: * xyzfile 0 1 input/CMR_GOLD_016_start.xyz
+PASS  | SP charge/multiplicity: * xyzfile 0 1 geometry/CMR_GOLD_016_opt.xyz
+PASS  | Opt normal termination: True
+PASS  | Opt convergence: True
+PASS  | Opt frequency count: 138 | expected=138
+PASS  | Opt min frequency: 0.0
+PASS  | Opt imaginary frequencies < -20 cm-1: []
+PASS  | Opt final energy count: 16
+PASS  | SP normal termination: True
+PASS  | SP orbital row count: 117
+PASS  | SP HOMO eV: -6.3417
+PASS  | SP LUMO eV: -1.8424
+PASS  | SP gap eV: 4.4993
+PASS  | SP dipole D: 3.402408252
+PASS  | SP final energy count: 1
+PASS  | Start XYZ atom count: (46, 46)
+PASS  | Opt XYZ atom count: (46, 46)
+PASS  | Charge rows: 46
+PASS  | Mulliken charge sum: -2.2551405187698492e-17
+PASS  | Loewdin charge sum: -1.6653345369377348e-16
+PASS  | N atom count in charges: 0
+PASS  | O atom count in charges: 8
+PASS  | Table9 HOMO_eV agrees: 0.0 | Table9=-6.3417, output=-6.3417, tol=0.0001
+PASS  | Table9 LUMO_eV agrees: 0.0 | Table9=-1.8424, output=-1.8424, tol=0.0001
+PASS  | Table9 Gap_eV agrees: 0.0 | Table9=4.4993, output=4.4993, tol=0.0001
+PASS  | Table9 Dipole_D agrees: 8.251999999764337e-06 | Table9=3.4024, output=3.402408252, tol=0.001
+PASS  | OVERALL_SHORT_AUDIT: PASS

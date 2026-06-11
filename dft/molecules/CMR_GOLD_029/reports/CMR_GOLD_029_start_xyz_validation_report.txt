@@ -1,0 +1,32 @@
+CMR_GOLD_029 RDKit-MMFF starting geometry validation report
+========================================================================
+
+Molecule_ID: CMR_GOLD_029
+SMILES_valid: True
+Canonical_SMILES: Cc1cc(=O)oc2cc(OCC(O)Cn3cnc4ccccc43)ccc12
+Formula: C20H18N2O4
+Exact_MW: 350.126657
+Formal_charge: 0
+Heavy_atoms_no_H: 26
+Total_atoms_with_H: 44
+N_count: 2
+O_count: 4
+Conformers_requested: 100
+Conformers_generated: 71
+Best_conformer_ID: 70
+MMFF_not_converged_flag: 0
+MMFF_energy_kcal_mol_like: 68.405747
+Min_nonbonded_distance_A: 1.7632
+Min_nonbonded_pair_atom_indices_0based: (41, 42)
+Coordinates_finite: True
+XYZ_RDKIT_written: True
+XYZ_ORCA_written: True
+SDF_written: True
+
+Expected key checks:
+- Formula should be C20H18N2O4
+- Formal charge should be 0
+- N_count should be 2
+- Total atoms with explicit H should be 44
+- Coordinates_finite should be True
+- Min_nonbonded_distance_A should not be suspiciously small

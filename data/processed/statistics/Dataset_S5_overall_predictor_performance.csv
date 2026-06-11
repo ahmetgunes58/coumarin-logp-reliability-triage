@@ -1,0 +1,7 @@
+﻿Predictor,Parameterisation,Bias,MAE,RMSE,R2,Fold_vs_lit,N_count_beta,N_count_p,N_count_sig
+MLOGP,Topological,-0.268,0.997,1.309,-0.326,2.2,-0.203,0.018,*
+Consensus,Ensemble (weighted),-0.879,1.164,1.511,-0.767,2.5,-0.048,0.562,ns
+WLOGP,Atomic contributions,-1.074,1.404,1.84,-1.621,3.1,-0.004,0.967,ns
+iLOGP,Free energy perturbation,-0.065,1.319,1.883,-1.745,3.1,0.286,0.023,*
+XLOGP3,Fragment + correction,-1.323,1.623,2.146,-2.564,3.6,-0.28,0.013,*
+Silicos_IT,Fragment-based,-1.67,1.877,2.333,-3.215,3.9,-0.042,0.705,ns

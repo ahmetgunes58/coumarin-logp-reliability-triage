@@ -1,0 +1,5 @@
+﻿D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\geometry\CMR_GOLD_043_opt.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\output\CMR_GOLD_043_optfreq.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\output\CMR_GOLD_043_optfreq_existing.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\output\CMR_GOLD_043_sp.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_043\output\CMR_GOLD_043_sp_existing.out

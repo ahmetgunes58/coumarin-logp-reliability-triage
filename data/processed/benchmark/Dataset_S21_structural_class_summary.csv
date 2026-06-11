@@ -1,0 +1,12 @@
+﻿Structural_Class_SI,n,MAE,RMSE,Mean_consensus_bias,Interpretive_note
+Oxadiazole,5,0.13,0.16,-0.06,Compact / electronically contained N
+Furocoumarin,4,0.22,0.27,-0.22,"Fused O-ring, N-free"
+Oxadiazoline,3,0.35,0.37,-0.23,Compact reduced N-heterocycle
+Amidoxime,3,0.64,0.64,-0.64,Moderate N-heteroatom polarity
+Simple coumarin,3,0.69,0.79,0.69,"N-free, short π-system"
+Low-frequency / singleton classes,10,0.66,0.81,-0.42,Mixed low-frequency structural types
+Triazolo-thiadiazinyl,10,1.27,1.33,-1.27,Multi-N compact fused heteroaromatic system
+Conjugated N-bearing coumarin,47,1.33,1.63,-1.08,Extended π-system with nitrogen-containing substituents
+Phosphonate coumarin,5,1.65,1.72,-1.65,N / phosphonate-containing polar conjugated system
+Dimeric coumarin,3,1.82,1.87,0.99,"N-free, extended π-conjugated dimer"
+7-amino D–π–A,2,4.35,4.43,-4.35,Full donor–π–acceptor conjugation

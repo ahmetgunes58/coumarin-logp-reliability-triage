@@ -1,0 +1,25 @@
+# Preserve exact bytes for reproducibility and SHA256 checksums.
+* -text
+
+# Explicit scientific/repository file handling.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.xlsx binary
+*.gbw binary
+
+*.cube -text
+*.cub -text
+*.hess -text
+*.xyz -text
+*.inp -text
+*.out -text
+*.csv -text
+*.txt -text
+*.md -text
+*.cff -text
+*.json -text
+*.smi -text
+*.py -text
+*.svg -text

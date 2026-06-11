@@ -1,0 +1,9 @@
+﻿Compound,Atom_index_ORCA,Element,Mulliken_charge,Source_file,Lowdin_charge
+CMR_GOLD_043,12,N,-0.019061,coumarin-logp\dft\molecules\CMR_GOLD_043\02_sp_charge\CMR_GOLD_043_sp_charge_clean.out,-0.044535
+CMR_GOLD_043,15,N,-0.176275,coumarin-logp\dft\molecules\CMR_GOLD_043\02_sp_charge\CMR_GOLD_043_sp_charge_clean.out,-0.126436
+CMR_GOLD_058,14,N,-0.273216,coumarin-logp\dft\molecules\CMR_GOLD_058\02_sp_charge\CMR_GOLD_058_sp_charge_clean.out,-0.030632
+CMR_GOLD_058,28,N,-0.265856,coumarin-logp\dft\molecules\CMR_GOLD_058\02_sp_charge\CMR_GOLD_058_sp_charge_clean.out,-0.010411
+CMR_GOLD_079,2,N,-0.141646,coumarin-logp\dft\molecules\CMR_GOLD_079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out,0.022323
+CMR_GOLD_079,6,N,-0.110546,coumarin-logp\dft\molecules\CMR_GOLD_079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out,0.108228
+CMR_GOLD_079,18,N,-0.08465,coumarin-logp\dft\molecules\CMR_GOLD_079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out,-0.099237
+CMR_GOLD_079,19,N,-0.171166,coumarin-logp\dft\molecules\CMR_GOLD_079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out,-0.122436

@@ -1,0 +1,5 @@
+﻿Compound,ORCA_version,Opt_Freq_status,Imaginary_frequencies,SP_status,Selected_opt_freq_output,Selected_SP_output,Number_of_output_files_found
+CMR_GOLD_055,6.1.1  -  RELEASE   -,Complete,0,Complete,coumarin-logp\dft\molecules\CMR_GOLD_055\01_opt_freq\CMR_GOLD_055_correct_opt_pal8_clean.out,coumarin-logp\dft\molecules\CMR_GOLD_055\02_sp_charge\CMR_GOLD_055_sp_charge_clean.out,2
+CMR_GOLD_043,6.1.1  -  RELEASE   -,Complete,0,Complete,coumarin-logp\dft\molecules\CMR_GOLD_043\01_opt_freq\CMR_GOLD_043_correct_opt_pal8.out,coumarin-logp\dft\molecules\CMR_GOLD_043\02_sp_charge\CMR_GOLD_043_sp_charge_clean.out,2
+CMR_GOLD_079,6.1.1  -  RELEASE   -,Complete,0,Complete,coumarin-logp\dft\molecules\CMR_GOLD_079\01_opt_freq\CMR_GOLD_079_correct_opt_pal8.out,coumarin-logp\dft\molecules\CMR_GOLD_079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out,2
+CMR_GOLD_058,6.1.1  -  RELEASE   -,Complete,0,Complete,coumarin-logp\dft\molecules\CMR_GOLD_058\01_opt_freq\CMR_GOLD_058_correct_opt_pal8.out,coumarin-logp\dft\molecules\CMR_GOLD_058\02_sp_charge\CMR_GOLD_058_sp_charge_clean.out,2

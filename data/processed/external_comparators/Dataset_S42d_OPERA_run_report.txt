@@ -1,0 +1,29 @@
+﻿Dataset_S42d OPERA 2.9 logP run report
+======================================================================
+
+Run time: 2026-06-05T17:36:28
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Python version: 3.13.9
+Operating system: Windows-11-10.0.26200-SP0
+
+1. OPERA command
+----------------------------------------------------------------------
+D:\Makaleler\coumarin-logp-working-source\tools\OPERA\application\OPERA.exe -s D:\Makaleler\coumarin-logp-working-source\data\external_predictor_input.smi -o D:\Makaleler\coumarin-logp-working-source\data\processed\OPERA_logP_raw_output.csv -e logP -v 1 -c
+
+2. Input/output files
+----------------------------------------------------------------------
+OPERA executable: D:\Makaleler\coumarin-logp-working-source\tools\OPERA\application\OPERA.exe
+Input SMI file: D:\Makaleler\coumarin-logp-working-source\data\external_predictor_input.smi
+Raw OPERA output: D:\Makaleler\coumarin-logp-working-source\data\processed\OPERA_logP_raw_output.csv
+Stdout file: D:\Makaleler\coumarin-logp-working-source\data\processed\OPERA_logP_stdout.txt
+Stderr file: D:\Makaleler\coumarin-logp-working-source\data\processed\OPERA_logP_stderr.txt
+
+3. Run status
+----------------------------------------------------------------------
+Return code: 0
+Raw output exists: True
+Raw output size bytes: 4324
+
+4. Interpretation note
+----------------------------------------------------------------------
+This script runs OPERA 2.9 locally for the logP endpoint only. The resulting OPERA output will be processed in the next step. OPERA is used as an external platform-independent comparator and is not used to train, recalibrate, or replace any SwissADME-associated predictor.

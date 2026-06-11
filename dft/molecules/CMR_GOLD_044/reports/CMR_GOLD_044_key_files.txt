@@ -1,0 +1,9 @@
+﻿D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\geometry\CMR_GOLD_044_opt.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq.gbw
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.gbw
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq_trj.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_start.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_start_rdkit_mmff.xyz
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_optfreq.out
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_sp.out

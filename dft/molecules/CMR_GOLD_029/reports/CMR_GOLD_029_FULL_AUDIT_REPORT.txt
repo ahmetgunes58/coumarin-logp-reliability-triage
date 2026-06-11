@@ -1,0 +1,98 @@
+﻿CMR_GOLD_029 FULL AUDIT REPORT
+====================================================================================================
+
+PASS  | exists::CMR_GOLD_029_optfreq.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\input\CMR_GOLD_029_optfreq.inp
+PASS  | exists::CMR_GOLD_029_sp.inp: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\input\CMR_GOLD_029_sp.inp
+PASS  | exists::CMR_GOLD_029_optfreq.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\output\CMR_GOLD_029_optfreq.out
+PASS  | exists::CMR_GOLD_029_sp.out: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\output\CMR_GOLD_029_sp.out
+PASS  | exists::CMR_GOLD_029_start.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\input\CMR_GOLD_029_start.xyz
+PASS  | exists::CMR_GOLD_029_opt.xyz: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\geometry\CMR_GOLD_029_opt.xyz
+PASS  | exists::CMR_GOLD_029_sp.gbw: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\input\CMR_GOLD_029_sp.gbw
+PASS  | exists::CMR_GOLD_029_sp.densities: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\input\CMR_GOLD_029_sp.densities
+PASS  | exists::CMR_GOLD_029_density.cube: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\cubes\CMR_GOLD_029_density.cube
+PASS  | exists::CMR_GOLD_029_esp.cube: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\cubes\CMR_GOLD_029_esp.cube
+PASS  | exists::CMR_GOLD_029_MEP_common_scale.png: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\figures\CMR_GOLD_029_MEP_common_scale.png
+PASS  | exists::CMR_GOLD_029_charges_mulliken_loewdin.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\extracted_data\CMR_GOLD_029_charges_mulliken_loewdin.csv
+PASS  | exists::CMR_GOLD_029_sp_summary.csv: True | D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_029\extracted_data\CMR_GOLD_029_sp_summary.csv
+PASS  | Opt route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq
+PASS  | SP route: ! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water)
+PASS  | Opt keyword B3LYP: True
+PASS  | Opt keyword D3BJ: True
+PASS  | Opt keyword def2-SVP: True
+PASS  | Opt keyword TightSCF: True
+PASS  | Opt keyword RIJCOSX: True
+PASS  | Opt keyword def2/J: True
+PASS  | Opt keyword CPCM(Water): True
+PASS  | Opt keyword Opt: True
+PASS  | Opt keyword Freq: True
+PASS  | SP keyword B3LYP: True
+PASS  | SP keyword D3BJ: True
+PASS  | SP keyword def2-SVP: True
+PASS  | SP keyword TightSCF: True
+PASS  | SP keyword RIJCOSX: True
+PASS  | SP keyword def2/J: True
+PASS  | SP keyword CPCM(Water): True
+PASS  | Opt charge/multiplicity line: * xyzfile 0 1 input/CMR_GOLD_029_start.xyz
+PASS  | SP charge/multiplicity line: * xyzfile 0 1 geometry/CMR_GOLD_029_opt.xyz
+PASS  | Opt normal termination: True
+PASS  | Opt convergence: True
+PASS  | Opt frequency count: 132
+PASS  | Opt min frequency: 0.0
+PASS  | Opt imaginary frequencies < -20 cm-1: []
+PASS  | Opt final energy count: 16
+PASS  | Opt last final energy: FINAL SINGLE POINT ENERGY     -1181.969418668164
+PASS  | SP normal termination: True
+PASS  | SP orbital row count: 103
+PASS  | SP HOMO eV: -6.1419
+PASS  | SP LUMO eV: -1.6896
+PASS  | SP gap eV: 4.452299999999999
+PASS  | SP dipole D: 10.369461119
+PASS  | SP final energy count: 1
+PASS  | SP last final energy: FINAL SINGLE POINT ENERGY     -1181.969447753359
+PASS  | Dipole plausibility check: 10.369461119 | High but chemically plausible for strongly polar substituted molecule
+PASS  | Start XYZ atom count: (44, 44)
+PASS  | Opt XYZ atom count: (44, 44)
+PASS  | Charge rows: 44
+PASS  | Mulliken charge sum: 1.000000000020082e-06
+PASS  | Loewdin charge sum: 1.249000902703301e-16
+PASS  | Nitrogen charge rows: [('14', 'N', -0.215393, 0.03277), ('16', 'N', -0.191979, -0.181997)]
+PASS  | Oxygen charge rows: [('1', 'O', -0.259017, -0.232958), ('3', 'O', -0.245848, -0.048699), ('9', 'O', -0.328795, -0.092425), ('12', 'O', -0.32898, -0.144142)]
+PASS  | Table9 HOMO agrees: True | Table9=-6.1419, output=-6.1419
+PASS  | Table9 LUMO agrees: True | Table9=-1.6896, output=-1.6896
+PASS  | Table9 gap agrees: True | Table9=4.4523, output=4.452299999999999
+PASS  | Table9 dipole agrees: True | Table9=10.3695, output=10.369461119
+PASS  | OVERALL_FULL_AUDIT: PASS
+
+
+DIPOLE BLOCK EXCERPT FROM SP OUTPUT
+----------------------------------------------------------------------------------------------------
+DIPOLE MOMENT
+-------------
+
+Method             : SCF
+Type of density    : Electron Density
+Multiplicity       :   1
+Irrep              :   0
+Energy             : -1181.8731492622518999 Eh
+Basis              : AO
+                                X                 Y                 Z
+Electronic contribution:     -2.031065235       4.403620685      -0.256873694
+Nuclear contribution   :      3.860349952      -7.945580052       1.123586590
+                        -----------------------------------------
+Total Dipole Moment    :      1.829284717      -3.541959367       0.866712895
+                        -----------------------------------------
+Magnitude (a.u.)       :      4.079577181
+Magnitude (Debye)      :     10.369461119
+
+
+
+--------------------
+Rotational spectrum 
+--------------------
+ 
+Rotational constants in cm-1:             0.010962             0.003627             0.002923 
+Rotational constants in MHz :           328.638294           108.747946            87.627309 
+
+Dipole components along the rotational axes: 
+x,y,z [a.u.] :     0.971785     3.698069     1.422276 
+x,y,z [Debye]:     2.470082     9.399745     3.615137 

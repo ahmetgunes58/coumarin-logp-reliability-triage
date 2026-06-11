@@ -1,0 +1,61 @@
+﻿Dataset_S42 external predictor input preparation report
+======================================================================
+
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S1_benchmark_dataset.csv
+
+1. Basic dataset checks
+----------------------------------------------------------------------
+Number of rows: 95
+Number of columns: 32
+Duplicate Compound_ID values: 0
+Missing values in core columns:
+  Compound_ID: 0
+  SMILES: 0
+  logP_exp: 0
+
+2. Numerical consistency checks
+----------------------------------------------------------------------
+logP_exp minimum: 0.2200
+logP_exp maximum: 5.0400
+Max absolute difference between stored delta_Consensus and recalculated logP_exp - Consensus: 0.0000000000
+
+3. Dataset summaries
+----------------------------------------------------------------------
+Data_Tier distribution:
+  EXTENDED: 19
+  GOLD: 24
+  STRICT-GOLD: 52
+N_group distribution:
+  N=0: 11
+  N=1: 16
+  N=2-3: 41
+  N≥4: 27
+FM distribution:
+  FM0: 6
+  FM1: 13
+  FM2: 44
+  FM3: 27
+  FM4: 5
+
+4. Recalculated key manuscript values
+----------------------------------------------------------------------
+Consensus bias: -0.879
+Consensus MAE: 1.164
+Consensus RMSE: 1.511
+Consensus R2: -0.767
+Overestimated compounds: 77.9%
+Severe absolute error compounds: 16.8%
+Polar logP <= 1.0 consensus bias: -2.084
+N = 1-3 and logP < 1.5 consensus bias: -2.027
+
+5. Ten-compound DFT panel presence check
+----------------------------------------------------------------------
+All ten DFT-panel compounds are present in Dataset_S1.
+
+6. Output files created
+----------------------------------------------------------------------
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_external_predictor_input.csv
+D:\Makaleler\coumarin-logp-working-source\data\external_predictor_input.smi
+D:\Makaleler\coumarin-logp-working-source\data\external_predictor_input.tsv
+D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_input_validation_report.txt

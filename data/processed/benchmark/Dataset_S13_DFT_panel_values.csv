@@ -1,0 +1,5 @@
+Compound,N,HOMO_eV,LUMO_eV,Gap_eV,Dipole_D,Status,Mechanistic_role
+CMR_GOLD_055,0,-6.5758,-1.9387,4.6371,6.5831,COMPLETE,N-free electronic reference
+CMR_GOLD_043,2,-6.7041,-2.5884,4.1157,5.7832,COMPLETE,Accurate N=2 control with electronically contained character
+CMR_GOLD_079,4,-6.1912,-2.3344,3.8568,7.4431,COMPLETE,Multi-N reference with moderate frontier-orbital softening
+CMR_GOLD_058,2,-4.9939,-2.3859,2.6080,6.1104,COMPLETE,Severe donor-pi-acceptor failure regime with frontier-orbital softening

@@ -1,0 +1,14 @@
+CMR_GOLD_043 structure verification
+========================================================================
+Input SMILES      : O=C2OC1=CC=CC=C1C(=C2)C3=NOC=N3
+Canonical SMILES  : O=c1cc(-c2ncon2)c2ccccc2o1
+Formula           : C11H6N2O3
+Exact mass        : 214.037842
+Heavy atoms       : 16
+Total atoms incl H: 22
+N atom count      : 2
+Expected N count  : 2
+Best conformer ID : 1
+Best energy       : 29.717702774127673
+
+Identity check: PASS

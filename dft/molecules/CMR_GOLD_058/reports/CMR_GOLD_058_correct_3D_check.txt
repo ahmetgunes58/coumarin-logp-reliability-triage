@@ -1,0 +1,25 @@
+Input SMILES:
+O=C1C(/C=C/C(C2=CC=C(C3=CC=C(N(CC)CC)C=C3)S2)=O)=CC4=C(C=C(N(CC)CC)C=C4)O1
+
+RDKit formula before explicit H: C30H32N2O3S
+RDKit formula after explicit H : C30H32N2O3S
+Observed atom counts          : {'O': 3, 'C': 30, 'N': 2, 'S': 1, 'H': 32}
+Total atoms                   : 68
+
+ C: observed= 30 expected= 30  OK
+ H: observed= 32 expected= 32  OK
+ N: observed=  2 expected=  2  OK
+ O: observed=  3 expected=  3  OK
+ S: observed=  1 expected=  1  OK
+
+Identity check: PASS
+
+3D generation:
+Conformers generated: 61
+Optimization method : MMFF94s
+Best conformer ID   : 3
+Best energy         : 103.29881002
+Not converged flag  : 0
+
+Output XYZ          : CMR_GOLD_058_correct_3D.xyz
+Output SDF          : CMR_GOLD_058_correct_3D.sdf

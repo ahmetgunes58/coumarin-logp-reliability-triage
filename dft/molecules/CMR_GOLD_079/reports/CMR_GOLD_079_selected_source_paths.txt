@@ -1,0 +1,14 @@
+﻿CMR_GOLD_079 selected existing DFT source files
+================================================================================
+
+OPT/FREQ source:
+C:\orca_tests\DFT_FINAL_PROPERTIES\079\01_opt_freq\CMR_GOLD_079_correct_opt_pal8.out
+
+SP source:
+C:\orca_tests\DFT_FINAL_PROPERTIES\079\02_sp_charge\CMR_GOLD_079_sp_charge_clean.out
+
+Copied opt/freq output:
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_079\output\CMR_GOLD_079_optfreq_existing.out
+
+Copied SP output:
+D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_079\output\CMR_GOLD_079_sp_existing.out

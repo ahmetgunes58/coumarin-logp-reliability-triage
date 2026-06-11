@@ -1,0 +1,60 @@
+﻿SangsterLogP coumarin filtering report
+========================================================================
+Input Excel: C:\Users\Ahmet Gunes\Downloads\Datasets.xlsx
+Sheet: SangsterLogP (N=23,520)
+
+Column mapping
+------------------------------------------------------------------------
+ID column:     ID
+Name column:   Name
+CASRN column:  CASRN
+SMILES column: SMILES
+logP column:   logP
+
+Benchmark overlap source
+------------------------------------------------------------------------
+Benchmark dataset: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S1_benchmark_dataset.csv
+Benchmark exact InChIKeys: 95
+Benchmark first-block InChIKeys: 95
+
+SangsterLogP filtering summary
+------------------------------------------------------------------------
+Rows in selected sheet: 23520
+Rows with SMILES and numeric logP: 23512
+Valid canonical molecules: 23512
+
+Coumarin pattern counts
+------------------------------------------------------------------------
+strict_coumarin_core: 0
+aromatic_coumarin_core: 172
+four_hydroxycoumarin_like: 0
+strict_coumarin_any: 172
+name_contains_coumarin: 90
+coumarin_candidate_any: 174
+
+Overlap summary for strict coumarin candidates
+------------------------------------------------------------------------
+Strict coumarin candidates: 172
+Exact InChIKey overlap with current 95: 44
+First-block InChIKey overlap with current 95: 46
+Strict coumarin exact non-overlap candidates: 128
+Strict coumarin strong non-overlap candidates: 126
+
+Output files
+------------------------------------------------------------------------
+All canonicalized Sangster data: D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_main_canonicalized.csv
+All coumarin/name candidates:    D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_coumarin_candidates_all.csv
+Strict coumarin candidates:      D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_strict_coumarin_candidates.csv
+Strict non-overlap candidates:   D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_strict_coumarin_nonoverlap_candidates.csv
+SwissADME SMI input:             D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_strict_coumarin_nonoverlap_for_SwissADME.smi
+
+Interpretation guide
+------------------------------------------------------------------------
+If strict strong non-overlap candidates >= 20, the set is likely useful as an external audit.
+If the count is 5-19, use cautiously as an external illustrative/stress-test subset.
+If the count is <5, do not expand the manuscript around this dataset.
+
+Important wording
+------------------------------------------------------------------------
+Do not call this a prospective validation unless predictions were truly generated before seeing experimental labels.
+Recommended wording: non-overlapping external coumarin audit or external stress-test subset.

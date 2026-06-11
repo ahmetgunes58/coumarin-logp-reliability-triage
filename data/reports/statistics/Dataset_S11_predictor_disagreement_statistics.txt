@@ -1,0 +1,31 @@
+﻿Dataset_S11 predictor-disagreement statistics
+========================================================================
+
+Input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S1_benchmark_dataset.csv
+Total compounds: 95
+Non-severe compounds (|ΔlogP| < 2.0): 79
+Severe-error compounds (|ΔlogP| ≥ 2.0): 16
+
+Correlation between Spread4 and |ΔlogP|
+------------------------------------------------------------------------
+Pearson r: 0.650136
+Pearson p-value: 1.008033e-12
+Spearman rho: 0.650257
+Spearman p-value: 9.951659e-13
+
+Group comparison of Spread4
+------------------------------------------------------------------------
+Mean Spread4, non-severe: 1.777342
+Median Spread4, non-severe: 1.770000
+Mean Spread4, severe: 2.645625
+Median Spread4, severe: 2.875000
+Mann-Whitney U statistic: 280.500000
+Mann-Whitney p-value: 4.818395e-04
+
+Linear fit for visual guide
+------------------------------------------------------------------------
+Slope: 0.708717
+Intercept: -0.199667
+Linregress r: 0.650136
+Linregress p-value: 1.008033e-12
+Standard error of slope: 0.085889

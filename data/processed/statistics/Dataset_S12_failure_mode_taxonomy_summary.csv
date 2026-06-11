@@ -1,0 +1,6 @@
+﻿Mode,Label,Representative regime,n,Mean bias,Median bias,MAE,Mechanistic meaning,Recommended action
+FM0,Low-risk / serviceable,"N = 0, logP ≤ 3.0",6,-0.261,-0.33,0.574,Fragment locality retained,Use if predictors agree
+FM1,Polar overestimation,"N = 1–3, logP < 1.5",13,-2.027,-1.68,2.027,Strongest overestimation; donor–π–acceptor embedding,Measure experimentally
+FM2,Conjugated-N misassignment,"N = 1–3, extended π, logP > 1.5",44,-0.872,-0.774,1.009,Cross-fragment coupling causes directional bias,Treat as provisional; check Spread4
+FM3,High-N cancellation,"N ≥ 4, mixed N environments",27,-0.778,-0.894,1.161,Cancellation can mask structure-specific failure,Inspect individually
+FM4,Conjugation overflow,"N = 0, logP > 3.0",5,0.75,0.16,0.998,Opposite-bias regime with underestimation risk,Validate when logP matters

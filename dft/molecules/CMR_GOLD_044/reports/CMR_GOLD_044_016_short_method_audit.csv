@@ -1,0 +1,75 @@
+﻿Compound_ID,Field,Value,Status,Note
+CMR_GOLD_044,exists::CMR_GOLD_044_optfreq.inp,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_optfreq.inp
+CMR_GOLD_044,exists::CMR_GOLD_044_sp.inp,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_sp.inp
+CMR_GOLD_044,exists::CMR_GOLD_044_optfreq.out,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_optfreq.out
+CMR_GOLD_044,exists::CMR_GOLD_044_sp.out,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\output\CMR_GOLD_044_sp.out
+CMR_GOLD_044,exists::CMR_GOLD_044_start.xyz,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\input\CMR_GOLD_044_start.xyz
+CMR_GOLD_044,exists::CMR_GOLD_044_opt.xyz,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\geometry\CMR_GOLD_044_opt.xyz
+CMR_GOLD_044,exists::CMR_GOLD_044_charges_mulliken_loewdin.csv,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_charges_mulliken_loewdin.csv
+CMR_GOLD_044,exists::CMR_GOLD_044_sp_summary.csv,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_044\extracted_data\CMR_GOLD_044_sp_summary.csv
+CMR_GOLD_044,Opt route,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq,PASS,
+CMR_GOLD_044,SP route,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water),PASS,
+CMR_GOLD_044,Opt charge/multiplicity,* xyzfile 0 1 input/CMR_GOLD_044_start.xyz,PASS,
+CMR_GOLD_044,SP charge/multiplicity,* xyzfile 0 1 geometry/CMR_GOLD_044_opt.xyz,PASS,
+CMR_GOLD_044,Opt normal termination,True,PASS,
+CMR_GOLD_044,Opt convergence,True,PASS,
+CMR_GOLD_044,Opt frequency count,75,PASS,expected=75
+CMR_GOLD_044,Opt min frequency,0.0,PASS,
+CMR_GOLD_044,Opt imaginary frequencies < -20 cm-1,[],PASS,
+CMR_GOLD_044,Opt final energy count,13,PASS,
+CMR_GOLD_044,SP normal termination,True,PASS,
+CMR_GOLD_044,SP orbital row count,70,PASS,
+CMR_GOLD_044,SP HOMO eV,-6.6834,PASS,
+CMR_GOLD_044,SP LUMO eV,-2.5383,PASS,
+CMR_GOLD_044,SP gap eV,4.145099999999999,PASS,
+CMR_GOLD_044,SP dipole D,6.350236912,PASS,
+CMR_GOLD_044,SP final energy count,1,PASS,
+CMR_GOLD_044,Start XYZ atom count,"(25, 25)",PASS,
+CMR_GOLD_044,Opt XYZ atom count,"(25, 25)",PASS,
+CMR_GOLD_044,Charge rows,25,PASS,
+CMR_GOLD_044,Mulliken charge sum,1.9999999999881224e-06,PASS,
+CMR_GOLD_044,Loewdin charge sum,9.999999999663056e-07,PASS,
+CMR_GOLD_044,N atom count in charges,2,PASS,
+CMR_GOLD_044,O atom count in charges,3,PASS,
+CMR_GOLD_044,Table9 HOMO_eV agrees,0.0,PASS,"Table9=-6.6834, output=-6.6834, tol=0.0001"
+CMR_GOLD_044,Table9 LUMO_eV agrees,0.0,PASS,"Table9=-2.5383, output=-2.5383, tol=0.0001"
+CMR_GOLD_044,Table9 Gap_eV agrees,8.881784197001252e-16,PASS,"Table9=4.1451, output=4.145099999999999, tol=0.0001"
+CMR_GOLD_044,Table9 Dipole_D agrees,3.691199999966699e-05,PASS,"Table9=6.3502, output=6.350236912, tol=0.001"
+CMR_GOLD_044,OVERALL_SHORT_AUDIT,PASS,PASS,
+CMR_GOLD_016,exists::CMR_GOLD_016_optfreq.inp,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_optfreq.inp
+CMR_GOLD_016,exists::CMR_GOLD_016_sp.inp,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_sp.inp
+CMR_GOLD_016,exists::CMR_GOLD_016_optfreq.out,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\output\CMR_GOLD_016_optfreq.out
+CMR_GOLD_016,exists::CMR_GOLD_016_sp.out,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\output\CMR_GOLD_016_sp.out
+CMR_GOLD_016,exists::CMR_GOLD_016_start.xyz,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\input\CMR_GOLD_016_start.xyz
+CMR_GOLD_016,exists::CMR_GOLD_016_opt.xyz,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\geometry\CMR_GOLD_016_opt.xyz
+CMR_GOLD_016,exists::CMR_GOLD_016_charges_mulliken_loewdin.csv,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\extracted_data\CMR_GOLD_016_charges_mulliken_loewdin.csv
+CMR_GOLD_016,exists::CMR_GOLD_016_sp_summary.csv,True,PASS,D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_016\extracted_data\CMR_GOLD_016_sp_summary.csv
+CMR_GOLD_016,Opt route,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water) Opt Freq,PASS,
+CMR_GOLD_016,SP route,! B3LYP D3BJ def2-SVP TightSCF RIJCOSX def2/J CPCM(Water),PASS,
+CMR_GOLD_016,Opt charge/multiplicity,* xyzfile 0 1 input/CMR_GOLD_016_start.xyz,PASS,
+CMR_GOLD_016,SP charge/multiplicity,* xyzfile 0 1 geometry/CMR_GOLD_016_opt.xyz,PASS,
+CMR_GOLD_016,Opt normal termination,True,PASS,
+CMR_GOLD_016,Opt convergence,True,PASS,
+CMR_GOLD_016,Opt frequency count,138,PASS,expected=138
+CMR_GOLD_016,Opt min frequency,0.0,PASS,
+CMR_GOLD_016,Opt imaginary frequencies < -20 cm-1,[],PASS,
+CMR_GOLD_016,Opt final energy count,16,PASS,
+CMR_GOLD_016,SP normal termination,True,PASS,
+CMR_GOLD_016,SP orbital row count,117,PASS,
+CMR_GOLD_016,SP HOMO eV,-6.3417,PASS,
+CMR_GOLD_016,SP LUMO eV,-1.8424,PASS,
+CMR_GOLD_016,SP gap eV,4.4993,PASS,
+CMR_GOLD_016,SP dipole D,3.402408252,PASS,
+CMR_GOLD_016,SP final energy count,1,PASS,
+CMR_GOLD_016,Start XYZ atom count,"(46, 46)",PASS,
+CMR_GOLD_016,Opt XYZ atom count,"(46, 46)",PASS,
+CMR_GOLD_016,Charge rows,46,PASS,
+CMR_GOLD_016,Mulliken charge sum,-2.2551405187698492e-17,PASS,
+CMR_GOLD_016,Loewdin charge sum,-1.6653345369377348e-16,PASS,
+CMR_GOLD_016,N atom count in charges,0,PASS,
+CMR_GOLD_016,O atom count in charges,8,PASS,
+CMR_GOLD_016,Table9 HOMO_eV agrees,0.0,PASS,"Table9=-6.3417, output=-6.3417, tol=0.0001"
+CMR_GOLD_016,Table9 LUMO_eV agrees,0.0,PASS,"Table9=-1.8424, output=-1.8424, tol=0.0001"
+CMR_GOLD_016,Table9 Gap_eV agrees,0.0,PASS,"Table9=4.4993, output=4.4993, tol=0.0001"
+CMR_GOLD_016,Table9 Dipole_D agrees,8.251999999764337e-06,PASS,"Table9=3.4024, output=3.402408252, tol=0.001"
+CMR_GOLD_016,OVERALL_SHORT_AUDIT,PASS,PASS,

@@ -1,0 +1,14 @@
+CMR_GOLD_079 structure verification
+========================================================================
+Input SMILES      : O=C(NCC1=CN(C(C2=O)=CC3=C(O2)C=CC=C3)N=N1)C4=CC=CC=C4O
+Canonical SMILES  : O=C(NCc1cn(-c2cc3ccccc3oc2=O)nn1)c1ccccc1O
+Formula           : C19H14N4O4
+Exact mass        : 362.101505
+Heavy atoms       : 27
+Total atoms incl H: 41
+N atom count      : 4
+Expected N count  : 4
+Best conformer ID : 58
+Best energy       : 34.212481900952326
+
+Identity check: PASS

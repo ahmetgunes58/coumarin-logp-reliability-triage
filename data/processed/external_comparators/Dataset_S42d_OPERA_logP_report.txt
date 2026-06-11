@@ -1,0 +1,92 @@
+﻿Dataset_S42d OPERA 2.9 logP processing report
+======================================================================
+
+Project directory: D:\Makaleler\coumarin-logp-working-source
+Base input file: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42_external_predictor_input.csv
+OPERA raw output: D:\Makaleler\coumarin-logp-working-source\data\processed\OPERA_logP_raw_output.csv
+Output values: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42d_OPERA_logP_values.csv
+Output report: D:\Makaleler\coumarin-logp-working-source\data\processed\Dataset_S42d_OPERA_logP_report.txt
+
+1. Processing status
+----------------------------------------------------------------------
+Base compounds: 95
+OPERA raw output rows: 95
+Valid OPERA logP values: 95
+Missing OPERA logP values: 0
+
+2. OPERA applicability-domain summary
+----------------------------------------------------------------------
+AD_LogP = 1 compounds: 93
+AD_LogP = 0 compounds: 2
+Mean OPERA AD index: 0.498
+Mean OPERA confidence index: 0.465
+
+3. OPERA full-dataset performance summary
+----------------------------------------------------------------------
+n: 95
+Bias: 0.018
+MAE: 1.236
+RMSE: 1.722
+R2: -1.296
+Overestimated_percent: 43.158
+Severe_abs_error_percent: 13.684
+
+4. OPERA subset performance summary
+----------------------------------------------------------------------
+AD_LogP = 1
+  n: 93
+  Bias: -0.073
+  MAE: 1.171
+  RMSE: 1.610
+  R2: -1.008
+  Overestimated_percent: 44.086
+  Severe_abs_error_percent: 11.828
+
+AD_LogP = 0
+  n: 2
+  Bias: 4.245
+  MAE: 4.245
+  RMSE: 4.521
+  R2: -126.738
+  Overestimated_percent: 0.000
+  Severe_abs_error_percent: 100.000
+
+Polar logP <= 1.0
+  n: 16
+  Bias: -1.681
+  MAE: 1.961
+  RMSE: 2.283
+  R2: -140.138
+  Overestimated_percent: 81.250
+  Severe_abs_error_percent: 37.500
+
+N = 1-3 and logP < 1.5
+  n: 13
+  Bias: -1.819
+  MAE: 2.029
+  RMSE: 2.398
+  R2: -30.808
+  Overestimated_percent: 92.308
+  Severe_abs_error_percent: 30.769
+
+FM1
+  n: 13
+  Bias: -1.819
+  MAE: 2.029
+  RMSE: 2.398
+  R2: -30.808
+  Overestimated_percent: 92.308
+  Severe_abs_error_percent: 30.769
+
+FM2
+  n: 44
+  Bias: 0.303
+  MAE: 0.843
+  RMSE: 1.043
+  R2: -0.586
+  Overestimated_percent: 29.545
+  Severe_abs_error_percent: 2.273
+
+5. Interpretation note
+----------------------------------------------------------------------
+OPERA logP is included as an external platform-independent comparator. The OPERA applicability-domain fields are retained in the output table to support transparent interpretation. OPERA is not used to train, recalibrate, or replace any SwissADME-associated predictor.

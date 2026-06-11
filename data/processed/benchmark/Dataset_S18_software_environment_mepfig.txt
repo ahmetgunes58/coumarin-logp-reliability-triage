@@ -1,0 +1,12 @@
+Software environment report
+========================================================================
+Conda environment: mepfig
+Operating system: Windows-10-10.0.26200-SP0
+Python: 3.11.15 | packaged by Anaconda, Inc. | (main, Mar 11 2026, 17:12:15) [MSC v.1942 64 bit (AMD64)]
+pandas: not installed / not available
+NumPy: 2.4.3
+SciPy: 1.17.1
+matplotlib: 3.10.8
+RDKit: not installed / not available
+PyVista: 0.47.3
+ORCA: *****************

@@ -1,0 +1,23 @@
+REFERENCE CANONICAL ISOMERIC SMILES:
+CCN(CC)c1ccc(-c2ccc(C(=O)/C=C/c3cc4ccc(N(CC)CC)cc4oc3=O)s2)cc1
+
+SDF CANONICAL ISOMERIC SMILES:
+CCN(CC)c1ccc(-c2ccc(C(=O)/C=C/c3cc4ccc(N(CC)CC)cc4oc3=O)s2)cc1
+
+Connectivity + stereochemistry match: PASS
+
+Formula from SDF: C30H32N2O3S
+Total atoms with explicit H: 68
+Heavy atoms: 36
+
+Atom counts:
+  C: 30
+  H: 32
+  N: 2
+  O: 3
+  S: 1
+
+Ring count: 4
+Contains sulfur: YES
+Contains two nitrogens: YES
+Contains three oxygens: YES

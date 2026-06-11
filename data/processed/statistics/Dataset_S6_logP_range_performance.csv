@@ -1,0 +1,5 @@
+﻿logP_Range,n,Consensus_Bias,Consensus_RMSE,XLOGP3_Bias,XLOGP3_RMSE,MLOGP_Bias,MLOGP_RMSE
+logP<1,16,-2.08,2.45,-2.25,2.83,-1.5,1.74
+logP 1-2,24,-0.99,1.37,-2.07,2.79,-0.78,1.54
+logP 2-3,28,-0.45,0.93,-0.68,1.11,0.17,0.84
+logP>3,27,-0.51,1.38,-0.77,1.81,0.46,1.17

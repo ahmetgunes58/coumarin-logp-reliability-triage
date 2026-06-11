@@ -1,0 +1,60 @@
+﻿SangsterLogP external coumarin SwissADME audit report
+==============================================================================
+Profile file:   D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SangsterLogP_external_coumarin_profile.csv
+SwissADME file: D:\Makaleler\coumarin-logp-working-source\data\external\SangsterLogP\SANG_CMR_EXT_001_Swissadme.csv
+
+Input integrity
+------------------------------------------------------------------------------
+Profile rows: 126
+SwissADME rows: 126
+Merged rows: 126
+Missing Consensus predictions: 0
+Missing iLOGP predictions: 126
+
+Predictor performance
+------------------------------------------------------------------------------
+ Predictor   n      Bias      MAE     RMSE  Overestimated_percent  Severe_abs_error_percent        R2  Missing_predictions
+     iLOGP   0       NaN      NaN      NaN                    NaN                       NaN       NaN                  126
+    XLOGP3 126  0.395238 1.284286 1.559790              26.190476                 15.079365 -0.602944                    0
+     WLOGP 126 -0.677937 0.852222 1.311585              80.952381                 13.492063 -0.133389                    0
+     MLOGP 126  0.461746 0.964127 1.137623              19.047619                  9.523810  0.147327                    0
+Silicos_IT 126  0.353730 0.725476 0.915563              21.428571                  3.968254  0.447717                    0
+ Consensus 126  0.132698 0.781270 0.979740              26.190476                  7.936508  0.367577                    0
+
+Consensus summary by N group
+------------------------------------------------------------------------------
+N_group  n  mean_delta  median_delta      mae     rmse  overestimated_percent  severe_error_n  severe_overestimation_n  mean_spread4
+  N = 0 98    0.358265          0.52 0.685000 0.846043              15.306122               3                        3      1.654082
+  N = 1  9    0.043333          0.11 0.687778 0.785854              44.444444               0                        0      1.606667
+N = 2–3  9   -0.191111         -0.08 0.640000 0.783184              55.555556               0                        0      2.362222
+  N ≥ 4 10   -1.706000         -2.10 1.936000 1.992998              90.000000               7                        7      1.870000
+
+Consensus N-count × logP-bin matrix
+------------------------------------------------------------------------------
+N_group         logP_bin  n  mean_delta      mae  severe_error_n  severe_overestimation_n  mean_spread4
+  N = 0 1.5 ≤ logP ≤ 3.0 50    0.398600 0.589800               0                        0      1.684800
+  N = 0       logP < 1.5 11   -0.621818 0.943636               2                        2      2.381818
+  N = 0       logP > 3.0 37    0.595135 0.736757               1                        1      1.396216
+  N = 1 1.5 ≤ logP ≤ 3.0  6    0.143333 0.593333               0                        0      1.505000
+  N = 1       logP < 1.5  1   -0.880000 0.880000               0                        0      2.250000
+  N = 1       logP > 3.0  2    0.205000 0.875000               0                        0      1.590000
+N = 2–3 1.5 ≤ logP ≤ 3.0  2   -0.340000 0.360000               0                        0      2.650000
+N = 2–3       logP < 1.5  4   -0.760000 0.760000               0                        0      1.315000
+N = 2–3       logP > 3.0  3    0.666667 0.666667               0                        0      3.566667
+  N ≥ 4 1.5 ≤ logP ≤ 3.0  3   -2.140000 2.140000               3                        3      1.806667
+  N ≥ 4       logP < 1.5  6   -1.965000 1.965000               4                        4      1.723333
+  N ≥ 4       logP > 3.0  1    1.150000 1.150000               0                        0      2.940000
+
+Pre-experimental alert enrichment
+------------------------------------------------------------------------------
+                  Alert  flagged_n  unflagged_n  flagged_overestimated_percent  flagged_severe_error_n  flagged_severe_overestimation_n  severe_error_recall_percent  severe_overestimation_recall_percent  mean_delta_flagged  mae_flagged
+alert_numeric_high_risk          4          122                      25.000000                       0                                0                          0.0                                   0.0            0.140000     0.785000
+alert_broad_N_or_spread         18          108                      72.222222                       6                                6                         60.0                                  60.0           -0.838333     1.308333
+   lower_concern_screen         79           47                       5.063291                       0                                0                          0.0                                   0.0            0.567595     0.622278
+
+Interpretation notes
+------------------------------------------------------------------------------
+This is a non-overlapping external coumarin audit, not prospective validation.
+iLOGP was n/d for all uploaded SwissADME rows and should not be used in the external performance comparison.
+Spread4 was calculated as max(XLOGP3, WLOGP, MLOGP, Silicos-IT) - min(XLOGP3, WLOGP, MLOGP, Silicos-IT).
+Negative delta values indicate overestimation of lipophilicity.

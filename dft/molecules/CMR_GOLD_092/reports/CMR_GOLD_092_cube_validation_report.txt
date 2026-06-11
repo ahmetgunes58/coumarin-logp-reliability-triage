@@ -1,0 +1,26 @@
+﻿CMR_GOLD_092 cube validation report
+========================================================================
+
+Molecule_ID: CMR_GOLD_092
+Density_cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_092\cube\CMR_GOLD_092_density.cube
+ESP_cube: D:\Makaleler\coumarin-logp-working-source\dft\molecules\CMR_GOLD_092\cube\CMR_GOLD_092_esp.cube
+Same_grid: True
+Same_origin: True
+Same_axes: True
+Same_natoms: True
+Grid: (40, 40, 40)
+Natoms: 52
+Density_min: 0.0
+Density_max: 8.05152
+Density_mean: 0.005211629696911867
+ESP_min: -0.120349
+ESP_max: 15.1797
+ESP_mean: 0.020444424630669002
+Isosurface_density_au: 0.004
+Near_isosurface_shell_points: 250
+ESP_min_near_rho_0p004: -0.105452
+ESP_max_near_rho_0p004: 0.069822
+ESP_mean_near_rho_0p004: 0.005834202804
+Common_MEP_scale_min_au: -0.08
+Common_MEP_scale_max_au: 0.08
+ESP_values_outside_common_scale_total: 2257
